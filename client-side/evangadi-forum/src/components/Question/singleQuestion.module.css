@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.singleQuestionWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding-top: 61px !important;
+  margin-top: 19px !important;
+  width: 900px;
+  margin: 0 auto;
+}
+.singleQuestionWrapper p {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  /* padding: 0px !important; */
+  font-size: 17px;
+  /* line-height: 1.5; */
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.singleQuestionWrapper h1 {
+  color: black;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+.singleQuestionWrapper img {
+  width: 70px;
+  padding-left: 9px;
+}
+.questionDetails {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-left: auto; /* Aligns actions to the right */
+}
+.answer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+h1 {
+  font-size: 30px !important;
+}
+
+.userName {
+  padding-left: 20px;
+}
+
+.answerItems {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #e0e0e0;
+}
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.answerText {
+  max-width: 663px;
+  overflow-wrap: break-word;
+  padding-left: 11px;
+  padding-top: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  width: 20px;
+}
+
+.message {
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.success {
+  color: blue;
+  background-color: #e0f2ff;
+  border: 1px solid blue;
+  width: 45%;
+  text-align: center;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  background-color: #ffe0e0;
+  border: 1px solid red;
+  width: 45%;
+}
+
+.deleteBt {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  height: 28px;
+}
+.editBt {
+  background: green;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  height: 28px;
+}
+
+.answerActions {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+  padding-right: 20px;
+}
+.deleteBtn,
+.editBtn {
+  width: auto !important;
+  padding: 0.3rem 0.6rem;
+  margin: 0;
+}
+
+.deleteBtn:hover {
+  background: #c82333;
+}
+.arrowButton {
+  width: 108px !important;
+  font-size: 18px;
+  width: 96px !important;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  gap: 10px;
+}
+.pagination button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 3px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.pagination button:hover {
+  background-color: #0056b3;
+}
+.pagination button:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+/* for answer ranting */
+/* Star Rating Styles */
+.ratingContainer {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.starRating {
+  display: inline-flex;
+  gap: 2px;
+}
+
+.star {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1.2rem;
+}
+
+.star:hover {
+  transform: scale(1.1);
+}
+
+.filledStar {
+  color: #ffc107; /* Gold color for filled stars */
+}
+
+.emptyStar {
+  color: #ccc; /* Light gray for empty stars */
+}
+
+.ratingInfo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.9rem;
+}
+
+.averageRating {
+  font-weight: bold;
+  color: #333;
+}
+
+.ratingCount {
+  color: #666;
+  font-size: 0.8rem;
+}
+
+/* For disabled state (when user can't rate) */
+.starRating.disabled .star {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* For user's own answers (where they shouldn't be able to rate) */
+.ownAnswer .star {
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .ratingContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .star {
+    font-size: 1rem;
+  }
+
+  .ratingInfo {
+    font-size: 0.8rem;
+  }
+}
+
+/* Optional: If you want the container to shrink on smaller screens */
+@media (max-width: 800px) {
+  .singleQuestionWrapper {
+    width: 100%;
+    padding: 20px;
+  }
+}

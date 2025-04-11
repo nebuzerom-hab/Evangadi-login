@@ -1,0 +1,140 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.noQuestions {
+  color: #6b7280;
+}
+
+.questionCard {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.questionTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.questionDescription {
+  color: #374151;
+  margin-bottom: 1rem;
+}
+
+.metaInfo {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.divider {
+  margin: 0 0.5rem;
+}
+
+.answersSection {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1rem;
+}
+
+.answersHeader {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.answerCard {
+  background-color: #f9fafb;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.answerText {
+  color: #1f2937;
+  margin-bottom: 0.75rem;
+}
+
+.noAnswers {
+  color: #6b7280;
+  font-style: italic;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.error {
+  text-align: center;
+  padding: 2rem 0;
+  color: #ef4444;
+}
+
+.answerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.answerText {
+  flex: 1; /*This allows the text to take up available space*/
+  margin: 0;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 8px; /* Modern way to space items (replace margin-left on buttons) */
+}
+
+.DeleteButton {
+  background-color: red;
+  color: white;
+  border: none;
+}
+.EditButton {
+  background-color: blue;
+  color: white;
+  border: none;
+}
+.EditButton,
+.DeleteButton {
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 28px;
+}
+
+.SaveButton {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 35px;
+}
+.CancelButton {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 35px;
+  margin-top: 20px;
+}

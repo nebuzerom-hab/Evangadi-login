@@ -1,0 +1,56 @@
+.editAnswerWrapper {
+  width: 900px;
+  margin: 55px auto;
+  padding: 1rem;
+}
+
+.answerTextarea {
+  width: 100%;
+  min-height: 200px;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+}
+
+.saveButton:hover {
+  background-color: #218838;
+}
+
+.cancelButton:hover {
+  background-color: #5a6268;
+}
+
+.error {
+  color: #dc3545;
+  margin: 1rem 0;
+}
+.success {
+  color: #28a745; /* Green color for success */
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.error {
+  color: #dc3545; /* Red color for errors */
+  margin: 10px 0;
+}
+
+.saveButton,
+.cancelButton {
+  width: 163px !important;
+}
+.saveButton {
+  background-color: #4caf50;
+  color: white;
+}
+.cancelButton {
+  background-color: #f44336;
+  color: white;
+}
