@@ -1,0 +1,155 @@
+.answerFormWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto !important;
+  flex: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1400px;
+  margin: 20px auto;
+
+  border-radius: 8px;
+}
+.page {
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+textarea {
+  width: 96%;
+  height: 60px;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: black;
+}
+
+button {
+  width: 100% !important;
+  /* margin-top: 10px; */
+  border: none;
+  border-radius: 5px;
+  background-color: #5569f5;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5569f5;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+form p {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.answersList {
+  margin-top: 2rem;
+}
+
+.answerItem {
+  background: #f8f9fa;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  position: relative;
+}
+
+.deleteBtn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.deleteBtn:hover {
+  background: #c82333;
+}
+
+.editForm {
+  margin-top: 1rem;
+}
+
+.editTextarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.editButtons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.saveBtn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.saveBtn:hover {
+  background: #218838;
+}
+
+.cancelBtn {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancelBtn:hover {
+  background: #5a6268;
+}
+
+.editBtn {
+  background: #17a2b8;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.editBtn:hover {
+  background: #138496;
+}
+
+.answerActions {
+  margin-top: 0.5rem;
+}
+.btn {
+  width: 164px !important;
+  margin-top: 20px;
+}

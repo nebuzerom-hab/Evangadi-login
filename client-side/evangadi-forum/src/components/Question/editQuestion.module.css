@@ -1,0 +1,49 @@
+.question {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 96px !important;
+}
+.question input {
+  width: 96%;
+}
+.question h2 {
+  color: black;
+  font-weight: normal;
+}
+
+.message {
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.success {
+  color: blue;
+  background-color: #e0f2ff; /* Light blue background */
+  border: 1px solid blue;
+}
+
+.error {
+  color: red;
+  background-color: #ffe0e0; /* Light red background */
+  border: 1px solid red;
+}
+.buttonGroup {
+  display: flex;
+  gap: 25px;
+  margin-top: 20px;
+}
+.saveButton,
+.cancelButton {
+  width: 163px !important;
+}
+.saveButton {
+  background-color: #4caf50;
+  color: white;
+}
+.cancelButton {
+  background-color: #f44336;
+  color: white;
+}

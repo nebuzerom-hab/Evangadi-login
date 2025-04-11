@@ -1,0 +1,54 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  margin-top: 88px;
+  background-color: #fff;
+}
+
+.instructionBox {
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.instructions {
+  list-style: none;
+  padding-left: 0;
+  font-family: monospace;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.formTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input,
+textarea {
+  padding: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 95%;
+}
+
+.buttons {
+  width: 152px !important;
+}
+
+button:hover {
+  background-color: #254eda;
+}
